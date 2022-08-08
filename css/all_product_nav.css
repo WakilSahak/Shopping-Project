@@ -1,0 +1,85 @@
+/* all_product_nav.php style is start */
+nav {
+    width: 100%; 
+    background-color: #df3500;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px;
+}
+nav ul li a {
+    color: #fff;
+    background-color: rgba(255,255,255,0.1);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 8px 15px;
+    margin: 0 15px 0 20px;
+    border-radius: 0px;
+    display: block;
+    transition: all 0.3s;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+}
+@media only screen and (max-width:700px){
+    nav {
+        width: 100%; 
+        background-color: #df3500;
+    }
+    nav ul li {
+        list-style: none;
+        display: block;
+        padding: 10px 0px;
+    }
+    nav ul li a {
+        text-align: center;
+        margin: 0 15px 0 0px;
+    }
+}
+/* all_product_nav.php style is done */
+
+/* all_product.php,all_product_son.php, all_product_girl.php, all_man_nav.php, 
+all_product_woman.php, all_product_family.php, all_product_bride & groom.php,  style is start */
+.main_product_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.main_product_img img {
+    width: 100%;
+    height: 200px;
+    opacity: 1;
+}
+.main_product_img img:hover {
+    width: 100%;
+    height: 200px;
+    opacity: 0.9;
+}
+.main_product_img span {
+    border: 1px solid #df3500;
+    text-align: center;
+    background: #df3500;
+    color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px 0;
+}
+@media only screen and (max-width:700px){
+    .main_product_img {
+        grid-template-columns: 1fr;   
+    }
+    .main_product_img img {
+        width: 100%;
+        height: 300px;
+    }
+    .main_product_img img:hover {
+        width: 100%;
+        height: 300px;
+    }
+}
